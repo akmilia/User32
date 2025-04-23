@@ -1,0 +1,14 @@
+﻿<Page x:Class="User32.TransportWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:User32"
+        mc:Ignorable="d"
+        Title="TransportWindow" MinHeight="450" MinWidth="1000" Background="White">
+    <DockPanel>
+        <!-- Header -->
+        <!--<local:Header DockPanel.Dock="Top" x:Name="HeaderControl" />-->
+    </DockPanel>
+
+</Page>

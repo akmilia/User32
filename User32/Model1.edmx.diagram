@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8e6323864a834807b4b19725b896a1f3" Name="Diagram1">
+        <EntityTypeShape EntityType="User32Model.Arenda" Width="1.5" PointX="5.25" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="User32Model.Client" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="User32Model.Color" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="User32Model.Discount" Width="1.5" PointX="5.25" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="User32Model.Manager" Width="1.5" PointX="3" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="User32Model.Mark" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="User32Model.Model" Width="1.5" PointX="0.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="User32Model.sysdiagrams" Width="1.5" PointX="7.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="User32Model.Transport" Width="1.5" PointX="3" PointY="2.625" IsExpanded="true" />
+        <AssociationConnector Association="User32Model.FK_Arenda_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="User32Model.FK_Arenda_Manager" ManuallyRouted="false" />
+        <AssociationConnector Association="User32Model.FK_Arenda_Transport1" ManuallyRouted="false" />
+        <AssociationConnector Association="User32Model.FK_Transport_Color" ManuallyRouted="false" />
+        <AssociationConnector Association="User32Model.FK_Transport_Mark" ManuallyRouted="false" />
+        <AssociationConnector Association="User32Model.FK_Transport_Model" ManuallyRouted="false" />
+        <AssociationConnector Association="User32Model.Discount_Client" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
