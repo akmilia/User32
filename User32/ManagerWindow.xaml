@@ -8,7 +8,7 @@
         Title="ManagerWindow" MinHeight="450" MinWidth="1000" Background="White">
     <DockPanel>
         <!-- Header -->
-        <!--<local:Header DockPanel.Dock="Top" x:Name="HeaderControl" />-->
+        <local:Header DockPanel.Dock="Top" x:Name="HeaderControl" />
     </DockPanel>
 
 </Page>

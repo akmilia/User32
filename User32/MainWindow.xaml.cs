@@ -4,20 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
+using System.Windows.Navigation; 
 using System.Windows.Data;
+using System.Text.RegularExpressions;
+using System.Windows.Controls;
 namespace User32
 {
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : Page
     {
         User32Entities entities = new User32Entities(); 
         public MainWindow()
         {
             InitializeComponent();
-            MainFrame.Navigate(new TransportWindow());
+        
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -35,7 +37,8 @@ namespace User32
 
                 if (user != null)
                 {
-                    MainFrame.Navigate(new ManagerWindow());
+                    NavigationWindow window = (NavigationWindow)Application.Current.MainWindow;
+                    window.Navigate(new Uri("ManagerWindow.xaml", UriKind.Relative));
                 }
 
                 else MessageBox.Show("User not found");
